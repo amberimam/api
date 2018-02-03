@@ -5,10 +5,9 @@
             "Drinkware",
             "Coffee"
         ],
-        "images": [
+        "types": [
             {
-                "type": "",
-                "url": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/items/default_images/000/000/610/full_size/kinto_carat_coffee_dripper_and_pot.jpg?1510489804"
+                "image_url": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/items/default_images/000/000/610/full_size/kinto_carat_coffee_dripper_and_pot.jpg?1510489804"
             }
         ],
         "description": [
@@ -42,19 +41,53 @@
         }
     },
     {
+        "name": "Kinto Ceramic Lab Tall Mug",
+        "categories": [
+            "Drinkware"
+        ],
+        "types": [
+            {
+                "color": "Beige",
+                "image_url": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/images/images/000/001/528/full_size/kinto_ceramic_lab_tall_mug___beige.jpg?1510664122"
+            },
+            {
+                "color": "Black",
+                "image_url": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/images/images/000/001/276/full_size/kinto_ceramic_lab_tall_mug___black.jpg?1510664124"
+            },
+            {
+                "color": "Brown",
+                "image_url": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/images/images/000/001/275/full_size/kinto_ceramic_lab_tall_mug___brown.jpg?1510664123"
+            },
+            {
+                "color": "White",
+                "image_url": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/images/images/000/001/274/full_size/kinto_ceramic_lab_tall_mug___white.jpg?1510664122"
+            }
+        ],
+        "description": [
+            "Handle designed to fit fingers comfortably",
+            "Made of porcelain",
+            "Mugs can be stacked together for compact storage",
+            "Microwave and dishwasher safe"
+        ],
+        "weight": {
+            "amount": 12.1,
+            "unit": "ounce"
+        }
+    },
+    {
         "name": "Patagonia Hybrid Jacket",
         "categories": [
             "Apparel",
             "Women"
         ],
-        "images": [
+        "types": [
             {
-                "type": "black",
-                "url": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/images/images/000/000/899/full_size/patagonia_women_s_adze_hybrid_jacket___black.jpg?1510663389"
+                "color": "black",
+                "image_url": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/images/images/000/000/899/full_size/patagonia_women_s_adze_hybrid_jacket___black.jpg?1510663389"
             },
             {
-                "type": "white",
-                "url": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/images/images/000/000/899/full_size/patagonia_women_s_adze_hybrid_jacket___black.jpg?1510663389"
+                "color": "white",
+                "image_url": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/images/images/000/000/899/full_size/patagonia_women_s_adze_hybrid_jacket___black.jpg?1510663389"
             }
         ],
         "description": [
@@ -74,22 +107,22 @@
         "categories": [
             "Food"
         ],
-        "images": [
+        "types": [
             {
-                "type": "Brown butter with nibs + sea salt",
-                "url": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/images/images/000/001/717/full_size/dick_taylor_bars_with_inclusions___brown_butter_with_nibs___sea_salt.jpg?1510664223"
+                "flavor": "Brown butter with nibs + sea salt",
+                "image_url": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/images/images/000/001/717/full_size/dick_taylor_bars_with_inclusions___brown_butter_with_nibs___sea_salt.jpg?1510664223"
             },
             {
-                "type": "Fleur De Sel",
-                "url": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/images/images/000/001/716/full_size/dick_taylor_bars_with_inclusions___fleur_de_sel.jpg?1510664222"
+                "flavor": "Fleur De Sel",
+                "image_url": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/images/images/000/001/716/full_size/dick_taylor_bars_with_inclusions___fleur_de_sel.jpg?1510664222"
             },
             {
-                "type": "Black Fig",
-                "url": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/images/images/000/001/715/full_size/dick_taylor_bars_with_inclusions___black_fig.jpg?1510664221"
+                "flavor": "Black Fig",
+                "image_url": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/images/images/000/001/715/full_size/dick_taylor_bars_with_inclusions___black_fig.jpg?1510664221"
             },
             {
-                "type": "Maple Coconut",
-                "url": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/images/images/000/001/714/full_size/dick_taylor_bars_with_inclusions___maple_coconut.jpg?1510664221"
+                "flavor": "Maple Coconut",
+                "image_url": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/images/images/000/001/714/full_size/dick_taylor_bars_with_inclusions___maple_coconut.jpg?1510664221"
             }
         ],
         "description": [
