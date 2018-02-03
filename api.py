@@ -31,15 +31,26 @@ class Product(Resource):
 
 class Products(Resource):
     args = {
-        'category': fields.Str(required=False)
+        # Repeated parameter, e.g. "/?category=Apparel&category=Women"
+        'category': fields.List(fields.Str())
     }
 
     @use_kwargs(args)
     def get(self, category):
-        if category:
-            return [p for p in products if category in p['categories']]
+        filtered_list = []
+
+        if category and len(category) > 0:
+            for p in products:
+                product_matches_filter_criteria = True
+                for c in category:
+                    if c not in p['categories']:
+                        product_matches_filter_criteria = False
+                if product_matches_filter_criteria:
+                    filtered_list.append(p)
         else:
-            return products
+            filtered_list = products
+                    
+        return filtered_list
 
 api.add_resource(Product, '/products/<int:product_id>')
 api.add_resource(Products, '/products')
