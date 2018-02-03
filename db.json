@@ -1,6 +1,10 @@
 [
     {
         "name": "Kinto Carat Coffee Dripper and Pot",
+        "categories": [
+            "Drinkware",
+            "Coffee"
+        ],
         "images": [
             {
                 "type": "",
@@ -15,30 +19,34 @@
         ],
         "dimensions": {
             "length": {
-                "amount": "4.4",
+                "amount": 4.4,
                 "unit": "inches"
             },
             "width": {
-                "amount": "8",
+                "amount": 8,
                 "unit": "inches"
             },
             "height": {
-                "amount": "5.5",
+                "amount": 5.5,
                 "unit": "inches"
             }
         },
         "weight": {
-            "amount": "24.3",
+            "amount": 24.3,
             "unit": "ounce"
         },
         "price": {
-            "amount": "64",
+            "amount": 64,
             "currency": "USD",
-            "num_units": "1"
+            "num_units": 1
         }
     },
     {
         "name": "Patagonia Hybrid Jacket",
+        "categories": [
+            "Apparel",
+            "Women"
+        ],
         "images": [
             {
                 "type": "black",
@@ -56,13 +64,16 @@
             "High, harness- and pack-compatible handwarmer pockets and one interior chest pocket have brushed tricot lining"
         ],
         "price": {
-            "amount": "189",
+            "amount": 189,
             "currency": "USD",
-            "num_units": "1"
+            "num_units": 1
         }
     },
     {
         "name": "Dick Taylor Bars",
+        "categories": [
+            "Food"
+        ],
         "images": [
             {
                 "type": "Brown butter with nibs + sea salt",
@@ -90,9 +101,9 @@
             "unit": "ounce"
         },
         "price": {
-            "amount": "8.50",
+            "amount": 8.50,
             "currency": "USD",
-            "num_units": "1"
+            "num_units": 1
         }
     }
 ]
