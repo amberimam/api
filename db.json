@@ -15,26 +15,26 @@
         ],
         "dimensions": {
             "length": {
-                "length": "4.4",
+                "amount": "4.4",
                 "unit": "inches"
             },
             "width": {
-                "width": "8",
+                "amount": "8",
                 "unit": "inches"
             },
             "height": {
-                "height": "5.5",
+                "amount": "5.5",
                 "unit": "inches"
             }
         },
         "weight": {
-            "weight": "24.3",
+            "amount": "24.3",
             "unit": "ounce"
         },
         "price": {
-            "price": "64",
+            "amount": "64",
             "currency": "USD",
-            "amount": "1"
+            "num_units": "1"
         }
     },
     {
@@ -56,9 +56,9 @@
             "High, harness- and pack-compatible handwarmer pockets and one interior chest pocket have brushed tricot lining"
         ],
         "price": {
-            "price": "189",
+            "amount": "189",
             "currency": "USD",
-            "amount": "1"
+            "num_units": "1"
         }
     },
     {
@@ -86,13 +86,13 @@
             "All of our chocolate is carefully crafted from the bean in our small factory in Northern California."
         ],
         "weight": {
-            "weight": 2,
+            "amount": 2,
             "unit": "ounce"
         },
         "price": {
-            "price": "8.50",
+            "amount": "8.50",
             "currency": "USD",
-            "amount": "1"
+            "num_units": "1"
         }
     }
 ]
