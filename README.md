@@ -1,9 +1,11 @@
 ## REST API
 
+This is a proposed implementation for a REST API to support Gemnote's web application at www.gemnote.com. It supports getting a list of products (filterable by category), and getting a specific product by product ID. It is written in python and uses flask and webargs libraries.
+
 ### Installation
 * Install **python3** or **python2** if it is not installed on your system already. http://docs.python-guide.org/en/latest/starting/installation/
 * Install **pip** if its not present already. https://pip.pypa.io/en/stable/installing/
-* Download the contents of this repository.
+* Download the contents of this repository into a directory named `api`.
 * Execute the following command in the `api` directory: `pip install -r requirements.txt`
 
 ### Running the program
@@ -28,8 +30,9 @@ Example Request and Response:
 
 Request: `GET http://127.0.0.1:5000/products?category=Apparel&category=Women`
 
-Response:
-```
+Success Response: code 200 and content:
+
+```json
 [
     {
         "name": "Patagonia Hybrid Jacket",
@@ -70,8 +73,9 @@ Example Request and Response:
 
 Request: `GET http://127.0.0.1:5000/products/1`
 
-Response:
-```
+Success Response: code 200 and content:
+
+```json
 {
     "name": "Kinto Ceramic Lab Tall Mug",
     "categories": [
@@ -111,5 +115,12 @@ Response:
         "num_units": 1
     },
     "id": 1
+}
+```
+
+Error response: code 404 and content:
+```
+{
+    "message": "Product 10 doesn't exist. You have requested this URI [/products/10] but did you mean /products/<int:product_id> or /products ?"
 }
 ```
