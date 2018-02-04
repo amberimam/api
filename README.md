@@ -2,6 +2,24 @@
 
 This is a proposed implementation for a REST API to support Gemnote's web application at www.gemnote.com. It supports getting a list of products (filterable by category), and getting a specific product by product ID. It is written in python and uses flask and webargs libraries.
 
+### Contents
+```
+.
+├── README.md
+├── api.py
+├── db.json
+└── requirements.txt
+```
+
+#### api.py
+This is the file which implements the REST API. All of the logic to support the api is contained in this file.
+
+#### db.json
+This file contains details information about four products offered for sale at Gemnote, in json format.
+
+#### requirements.txt
+This file lists python dependencies for the api.
+
 ### Installation
 * Install **python3** or **python2** if it is not installed on your system already. http://docs.python-guide.org/en/latest/starting/installation/
 * Install **pip** if its not present already. https://pip.pypa.io/en/stable/installing/
