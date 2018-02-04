@@ -15,7 +15,7 @@ This is a proposed implementation for a REST API to support Gemnote's web applic
 This is the file which implements the REST API. All of the logic to support the api is contained in this file.
 
 #### db.json
-This file contains details information about four products offered for sale at Gemnote, in json format.
+This file contains detailed information about four products offered for sale at Gemnote, in json format.
 
 #### requirements.txt
 This file lists python dependencies for the api.
