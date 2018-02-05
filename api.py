@@ -12,6 +12,8 @@ def init_product_list():
     products = json.loads(db.read())
     db.close()
 
+    # db.json doesn't include IDs for simplicity sake, so populate the IDs based
+    # on the position in the array
     for index, product in enumerate(products):
         product['id'] = index
 
@@ -31,7 +33,8 @@ class Product(Resource):
 
 class Products(Resource):
     args = {
-        # Repeated parameter, e.g. "/?category=Apparel&category=Women"
+        # Category arg can be repeated, e.g. "/?category=Apparel&category=Women"
+        # Categories are ANDed together if there is more than one present
         'category': fields.List(fields.Str())
     }
 
@@ -45,6 +48,8 @@ class Products(Resource):
                 for c in category:
                     if c not in p['categories']:
                         product_matches_filter_criteria = False
+                        break
+
                 if product_matches_filter_criteria:
                     filtered_list.append(p)
         else:

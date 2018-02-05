@@ -72,6 +72,11 @@
         "weight": {
             "amount": 12.1,
             "unit": "ounce"
+        },
+        "price": {
+            "amount": 23.1,
+            "currency": "USD",
+            "num_units": 1
         }
     },
     {
