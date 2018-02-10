@@ -85,16 +85,21 @@
             "Apparel",
             "Women"
         ],
-        "types": [
-            {
-                "color": "black",
-                "image_url": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/images/images/000/000/899/full_size/patagonia_women_s_adze_hybrid_jacket___black.jpg?1510663389"
-            },
-            {
-                "color": "white",
-                "image_url": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/images/images/000/000/899/full_size/patagonia_women_s_adze_hybrid_jacket___black.jpg?1510663389"
-            }
-        ],
+        "types": {
+            "colors": [
+                "black",
+                "white"
+            ],
+            "size": [
+                "small",
+                "medium",
+                "large"
+            ]
+        },
+        "images": {
+            "black small": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/images/images/000/000/899/full_size/patagonia_women_s_adze_hybrid_jacket___black.jpg?1510663389",
+            "white small": "https://gemnote-images-production.s3-us-west-2.amazonaws.com/images/images/000/000/899/full_size/patagonia_women_s_adze_hybrid_jacket___black.jpg?1510663389"
+        },
         "description": [
             "93% polyester/7% spandex stretch woven with fleece grid backer",
             "3-layer Polartec Windbloc stretch-woven polyester soft-shell with a DWR (durable water repellent) finish",
@@ -102,9 +107,11 @@
             "High, harness- and pack-compatible handwarmer pockets and one interior chest pocket have brushed tricot lining"
         ],
         "price": {
-            "amount": 189,
-            "currency": "USD",
-            "num_units": 1
+            "black small": {
+                "amount": 189,
+                "currency": "USD",
+                "num_units": 1
+            }
         }
     },
     {

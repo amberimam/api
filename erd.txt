@@ -1,0 +1,20 @@
+products table:
+primary key: product_id
+fields: name -> string
+        types -> json type: dictionary of keys which are types and values are array of options for that type
+        description -> json array of strings
+
+category table:
+primary key: category_id
+fields: category -> string
+
+product_category_table:
+composite primary key: product_id, category_id
+
+types table:
+primary key: product_id + variant
+fields:
+    dimensions -> json type which is a dictionary which describes the dimensions,
+    weight -> json type with amount and units
+    price -> json type with amount, currency and num_units
+
